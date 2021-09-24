@@ -17,6 +17,19 @@
     &:hover
         color: $primary-color
 
+%center-bg
+    background-size: cover
+    background-position: center
+
+%card-hover
+    .job-card-title, .job-card-cover, .job-card-description
+        opacity: 0
+
+    &:hover
+        .job-card-title, .job-card-cover, .job-card-description
+            opacity: 1
+
+
 %title-text-shadow
     text-shadow: 3px 2px $black
 
@@ -24,6 +37,7 @@
     font-size: 3rem
     margin-top: 2rem
     text-align: center
+
 
 .btn
     padding: .6rem 1rem
